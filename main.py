@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import relationship, backref
 from datetime import date
 #Many to many Project
-#for commit
+#for  commit
 app=Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI']=f"postgresql://{'postgres'}:{'Shiva09'}@{'localhost'}:{'5432'}/{'ecommerce'}"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
